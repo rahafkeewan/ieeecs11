@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 40px;
+    width: 70%;
+    margin: 20px auto;
+}
+.add-task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #eee;
+    padding:  1rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    box-shadow: 6px 6px 10px #ccc;
+}
+.in-task{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #777;
+    padding: 8px 16px;
+}
+.btn{
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.btn-blue{
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.btn-blue:hover{
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+.btn-red{
+    background-color: #f44336;
+    border-color: #e33d31;
+}
+.btn-red:hover{
+    background-color: #e33d31;
+    border-color: #cd362b;
+}
+.section{
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 1rem;
+}
+.tasks .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px #ccc;
+}
+.tasks .item .task-text{
+    margin: 0;
+}
+.Footer{
+    border-top: 1px solid #ccc;
+    margin-top: 3rem;
+}
+.Footer h3{
+    text-align: right;
+    padding: 10px 0;
+}
